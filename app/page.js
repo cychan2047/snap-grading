@@ -187,9 +187,7 @@ export default function MathGradingDemo() {
 
     return (
       <div className="space-y-8">
-        <div className="p-4 w-24">
-          <p className="text-xl font-bold text-gray-200">Logo</p>
-        </div>
+        <Logo/>
 
         {/* Uploaded Image */}
         <div className="flex justify-center mb-6">
