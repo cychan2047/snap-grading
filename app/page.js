@@ -5,6 +5,7 @@ import { Button, Dialog, DialogPanel, DialogTitle } from '@headlessui/react';
 import { prompt_grade, prompt_rubric } from "@/app/prompts";
 import Image from 'next/image'
 import Logo from '@/app/logo';
+import Head from "next/head";
 
 const totalPossiblePoints = 5;
 
