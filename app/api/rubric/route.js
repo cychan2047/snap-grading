@@ -12,6 +12,8 @@ async function make_rubrics(image, prompt) {
     schemaDescription: 'Rubrics for the following grading.',
     schema: MakeRubricsResponseSchema,
     temperature: 0.1,
+    frequencyPenalty: 0,
+    presencePenalty: 0,
     messages: [
       {
         role: 'user',
